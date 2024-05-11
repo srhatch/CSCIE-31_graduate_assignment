@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="/submit" method="post">
+            <div class="input-div">
+                <label for="country-id">Country: </label>
+                <input id="country-id" type="text" name="country">
+            </div>
+            <div class="input-div">
+                <label for="date-id">Date Visited: </label>
+                <input id="date-id" type="text" name="date">
+            </div>
+            <div class="input-div">
+                <label for="sight-id">Favorite Sight: </label>
+                <input id="sight-id" type="text" name="favoriteSight">
+            </div>
+            <input class="submit-button" type="submit">
+        </form>
+        {{#if errorMsg}}
+            <div>{{errorMsg}}</div>
+        {{/if}}
+        {{#each list}}
+            <div class="listentry-div">
+                <div>{{country}}</div>
+                <div>{{dateVisited}}</div>
+                <div>{{favoriteSight}}</div>
+            </div>
+        {{/each}}
+    </body>
+</html>

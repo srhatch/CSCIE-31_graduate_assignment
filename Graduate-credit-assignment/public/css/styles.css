@@ -1,0 +1,28 @@
+.nav-links {
+    display: flex;
+}
+.nav-links > li {
+    list-style: none;
+}
+.nav-links > li + li {
+    margin-left: 15px;
+}
+.nav-links > li > a {
+    text-decoration: none;
+}
+
+.input-div {
+    margin-top: 15px;
+    text-align: center;
+}
+.submit-button {
+    display: block;
+    margin: auto;
+}
+.listentry-div {
+    margin-top: 25px;
+    text-align: center;
+}
+.listentry-div > div + div {
+    margin-top: 10px;
+}

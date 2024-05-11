@@ -1,0 +1,20 @@
+{
+  "name": "graduate-assignment",
+  "version": "1.0.0",
+  "description": "\"assignment for graduate credit\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SamHatch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.3"
+  }
+}
