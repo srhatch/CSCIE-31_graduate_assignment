@@ -19,12 +19,15 @@ Now the view engine setting can be set with the custom abbreviated file extensio
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/c8b27331-d7b7-4234-bfa0-717b0a9e7fc3)
 
  This code allows for the omission of the file extension when using res.render, so this can be written:
+ 
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/9535f253-a47f-4639-bc88-6e58d299950f)
 
 Instead of this:
+
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/2be04455-2e32-47ec-9a9a-a34a2c7d626f)
 
 As usual, the views directory must be set as well. res.render will look up the view file relative to the path set here.
+
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/da3b674f-c665-4bc1-b420-55068543d171)
 
 
@@ -37,6 +40,7 @@ Nesting is captured with Javascript object query syntax.
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/773e2e99-7d97-42ff-ba23-891c5194586b)
 
 A triple mustache is mainly used to describe where in the layout template the other templates will plug their elements into. It can also be used to prevent the automatic HTML escaping done by Handlebars as a safety measure.
+
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/ce69cfa4-9a4e-4738-9f1f-145d628c1a75)
 
 Context changing allows access to data to accomplish varying tasks like iteration and logic. Within a Handlebars expression, # denotes the beginning or the context change and the / denotes the end. Handlebars has a number of built-in context changers that perform familiar operations. A few basic ones are:
@@ -50,6 +54,7 @@ The above example with navigation links could be written as follows:
 If accessing a simple list, “this” can be used to reference the current element.
 
 For example, the following:
+
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/6bd95342-03bf-4b54-a4fc-d74055800187)
 
 ![Alt text](https://github.com/s-hatch/CSCIE-31_graduate_assignment/assets/113044909/934910f7-1cd4-4579-b6c2-263759d6a5d6)
